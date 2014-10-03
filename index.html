@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>KSP Advanced Fly-By-Wire by AlexanderDzhoganov</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/AlexanderDzhoganov/ksp-advanced-flybywire">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/AlexanderDzhoganov/ksp-advanced-flybywire/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/AlexanderDzhoganov/ksp-advanced-flybywire/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>KSP Advanced Fly-By-Wire</h1>
+          <p>Advanced controller mod for Kerbal Space Program</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/AlexanderDzhoganov">AlexanderDzhoganov</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h2>
+<a name="advanced-fly-by-wire-v11" class="anchor" href="#advanced-fly-by-wire-v11"><span class="octicon octicon-link"></span></a>Advanced Fly-By-Wire v1.1</h2>
+
+<h3>
+<a name="kerbal-space-program-input-system-overhaul-mod" class="anchor" href="#kerbal-space-program-input-system-overhaul-mod"><span class="octicon octicon-link"></span></a>Kerbal Space Program input system overhaul mod</h3>
+
+<p>Latest version - 1.1.1</p>
+
+<p><a href="https://github.com/AlexanderDzhoganov/ksp-advanced-flybywire/raw/master/builds/ksp-advanced-flybywire_v1.1.1_x86.zip">Download (Windows, x86)</a></p>
+
+<p><a href="https://github.com/AlexanderDzhoganov/ksp-advanced-flybywire/raw/master/builds/ksp-advanced-flybywire_v1.1.1_x64.zip">Download (Windows, x64)</a></p>
+
+<p><a href="https://github.com/AlexanderDzhoganov/ksp-advanced-flybywire/blob/master/LICENSE">Licensed under the MIT License</a></p>
+
+<p>You can also find the mod on:</p>
+
+<ul>
+<li><a href="http://forum.kerbalspaceprogram.com/threads/95022-0-24-2-Advanced-Fly-by-wire-v1-0-%28Better-controller-support%29">Official forums</a></li>
+<li><a href="http://www.curse.com/ksp-mods/kerbal/224592-advanced-fly-by-wire">Curse.com</a></li>
+<li><a href="https://kerbalstuff.com/mod/232/Advanced%20Fly-By-Wire">KerbalStuff</a></li>
+</ul><h3>
+<a name="what-is-this" class="anchor" href="#what-is-this"><span class="octicon octicon-link"></span></a>What is this?</h3>
+
+<p>This is a mod for <a href="http://kerbalspaceprogram.com">Kerbal Space Program</a>, a spaceship building/ space exploration game by Squad.
+It dramatically enhances the stock input system with a bunch of fixes and many new features.</p>
+
+<h3>
+<a name="how-is-it-better-than-stock" class="anchor" href="#how-is-it-better-than-stock"><span class="octicon octicon-link"></span></a>How is it better than stock?</h3>
+
+<ul>
+<li>Edit your control setup at any time during flight, no need to go back to the main menu to change bindings.</li>
+<li>Supports almost all controller types through the SDL wrapper.</li>
+<li>Native support for the Xbox 360 controller (and PS3 controller using MotionJoy) through the XInput wrapper. A built-in example preset is available.</li>
+<li>Unlimited number of controller buttons and axes</li>
+<li>Full keyboard &amp; mouse support</li>
+<li>Lower latency and better analog precision than KSP's stock input</li>
+<li>Smart dead-zone detection and analog calibration </li>
+<li>Remaps analog inputs to achieve better precision</li>
+<li>Acceleration-based discrete inputs for precise keyboard flight</li>
+<li>Supports key combinations with an infinite number of keys</li>
+<li>Multiple presets per controller</li>
+<li>Extremely simple to configure and use</li>
+<li>Works alongside the stock input system. The mod will not override or break your current setup.</li>
+</ul><h3>
+<a name="how-to-use" class="anchor" href="#how-to-use"><span class="octicon octicon-link"></span></a>How to use</h3>
+
+<p>The mod adds a new button to the mod toolbar.
+<img src="http://i.imgur.com/uToMl2R.png" alt="toolbar"></p>
+
+<p>Click the game controller icon or press Shift + L during flight to bring up Fly-By-Wire's main configuration screen.</p>
+
+<p><img src="http://i.imgur.com/OrsIzF1.png" alt="main"></p>
+
+<p>From there you will see a list of detected controllers. You can click on "Enable" to enable a controller from the list - two new buttons will appear - "Presets" and "Configure".</p>
+
+<p>"Presets" will open up the preset editor which is very similar to KSP's stock bindings editor. Using the preset editor you can modify your controller layout at any time.</p>
+
+<p><img src="http://i.imgur.com/5vpxkxJ.png" alt="presets"></p>
+
+<p>"Configure" will open up the controller configuration screen. It allows you to set some configuration values as well as calibrate the controller if necessary.</p>
+
+<p><img src="http://i.imgur.com/zVRH39l.png" alt="config"></p>
+
+<p>After setting up your controller you should save your game (by using quicksave or exiting to space center), which will automatically save your controller configuration as well.</p>
+
+<h3>
+<a name="operating-system-compatibility" class="anchor" href="#operating-system-compatibility"><span class="octicon octicon-link"></span></a>Operating system compatibility</h3>
+
+<p>Fully tested and compatible with KSP x32 and x64 on Windows operating systems.
+Linux/ MacOSX support available but still in early testing.
+XInput support unavailable on Linux and MacOSX.</p>
+
+<h3>
+<a name="performance-considerations" class="anchor" href="#performance-considerations"><span class="octicon octicon-link"></span></a>Performance considerations</h3>
+
+<p>The mod is extremely lightweight both on performance and memory. It only does a bit of arithmetic and remapping of incoming inputs which should have
+no noticeable effect on CPU usage. Memory usage is in the order of a few megabytes.</p>
+
+<h3>
+<a name="limitations" class="anchor" href="#limitations"><span class="octicon octicon-link"></span></a>Limitations</h3>
+
+<p>There is only one known limitation so far - most EVA controls are unavailable, you should continue using the stock input system for EVA.</p>
+
+<h3>
+<a name="compatibility-with-other-mods" class="anchor" href="#compatibility-with-other-mods"><span class="octicon octicon-link"></span></a>Compatibility with other mods</h3>
+
+<p>The mod has been tested to work with over 50 of the most popular mods.</p>
+
+<p>Here is a (non-exhaustive) list of mods that have been tested to be compatible, in no particular order:</p>
+
+<ul>
+<li>MechJeb</li>
+<li>Ferram Aerospace Research (FAR)</li>
+<li>KW Rocketry</li>
+<li>OKS/ MKS</li>
+<li>Kethane</li>
+<li>Infernal Robotics</li>
+<li>Kerbal Engineer Redux</li>
+<li>ORS</li>
+<li>PreciseNode</li>
+<li>TextureReplacer</li>
+<li>Deadly Reentry</li>
+<li>Crossfeed Enabler</li>
+<li>Chatterer</li>
+<li>Environmental Visual Enhancements</li>
+<li>TAC Life Support .. and more</li>
+</ul><p>Some issues:</p>
+
+<ul>
+<li>B9 Aerospace - loading crashes in the 64-bit build, 32-bit builds are unaffected</li>
+</ul><h3>
+<a name="roadmap" class="anchor" href="#roadmap"><span class="octicon octicon-link"></span></a>Roadmap</h3>
+
+<ul>
+<li>Linux/ MacOSX support</li>
+<li>Support for controller hats and trackballs</li>
+<li>EVA actions</li>
+</ul><h3>
+<a name="bug-reports" class="anchor" href="#bug-reports"><span class="octicon octicon-link"></span></a>Bug reports</h3>
+
+<p>Please report any bugs using <a href="https://github.com/AlexanderDzhoganov/ksp-advanced-flybywire/issues">GitHub's issue tracker</a>.</p>
+
+<h3>
+<a name="changelog" class="anchor" href="#changelog"><span class="octicon octicon-link"></span></a>Changelog</h3>
+
+<p>v1.1.1</p>
+
+<ul>
+<li>Fixed misinterpreted controller hat inputs</li>
+</ul><p>v1.1</p>
+
+<ul>
+<li>Fixed issue with FAR where FAR's dynamic control adjustment would get overridden</li>
+<li>Fixed trim issues</li>
+<li>Added wheel throttle and wheel steer</li>
+<li>Fixed a bug where throttle wouldn't go below 50%</li>
+<li>Support for controller hats both as axes and buttons (new "Treat hats as buttons" config option)</li>
+<li>Fixed SDL plug and play</li>
+<li>Fixed a preset editor bug where if time is slowed down (e.g. by using the TimeScale mod), it was not possible to change bindings</li>
+<li>General optimization</li>
+<li>Breaks the configuration XML, you will need to recreate your presets.</li>
+</ul><p>v1.0.3</p>
+
+<ul>
+<li>Fixed the issues with time warp</li>
+<li>B9 Aerospace now supported for 32-bit builds</li>
+</ul><p>v1.0.2</p>
+
+<ul>
+<li>Added negative versions of Yaw, Pitch, Roll, X, Y and Z</li>
+</ul><p>v1.0.1 </p>
+
+<ul>
+<li>SDL2.dll wasn't always recognized to exist</li>
+</ul>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
